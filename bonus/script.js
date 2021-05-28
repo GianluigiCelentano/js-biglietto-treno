@@ -31,7 +31,8 @@
 // dove è maggiore di 5 metto il numero, altrimenti non scrivo nulla
 
 var km = prompt ("inserisci il numero di kilometri da percorrere")
-var age = prompt ("inserisci la tua età")
+var born = prompt ("inserisci la tua data di nascita")
+var age = 2021 - parseInt(born);
 var cost = parseInt(km) * 0.21;
 var discount20 = parseInt(cost) * 20 / 100;
 var discount40 = parseInt(cost) * 40 / 100;
